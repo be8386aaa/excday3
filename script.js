@@ -1,7 +1,12 @@
 //-----EX1-----
 a = prompt();
-alert(isNaN(a))
-//-----EX3-----
+if (isNaN(a)) {
+    alert('false')
+}
+else {
+    alert('true');
+}
+----- EX3-----
 var arr = [2, 2, 1];
 var extractUnique = arr => {
     var uniquenum = [];
